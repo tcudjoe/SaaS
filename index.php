@@ -13,9 +13,11 @@
 <body>
     <main>
         <div class="container">
-            <div class="row">
+            <div class="row login">
                 <div class="col-12">
                     <h1>SaaS Login</h1>
+                </div>
+                <div class="col-12">
                     <div class="card">
                         <div class="card-body">
                             <div class="mb-3">
@@ -25,10 +27,12 @@
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="********">
+                                <input type="password" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="********">
                             </div>
                         </div>
                     </div>
+                    <button type="button" class="btn btn-primary">Primary</button>
                 </div>
             </div>
         </div>
