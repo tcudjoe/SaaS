@@ -1,7 +1,23 @@
-.card {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
+* {
+  box-sizing: border-box;
 }
+
+.login {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login > .col-12 > h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+button {
+  margin-top: 1rem;
+  float: right;
+  background-color: #1640b0 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
